@@ -1,0 +1,285 @@
+body {
+  font-family: "Avenir Next";
+}
+
+li {
+  list-style: none;
+
+}
+header {
+  width: 100%;
+}
+.header {
+  background-color: #7278D0;
+  color: #fff;
+  height: 90px;
+}
+.header-logo {
+  float: left;
+  font-size: 50px;
+  padding: 10px 20px;
+}
+.header-list ul {
+  float: right;
+  padding-right: 10px;
+  padding-top: 20px;
+}
+  @media(max-width:1000px) {
+  .header-logo {
+  font-size: 40px;
+  padding: 20px 20px;
+}}
+ @media(max-width:670px) {
+  .header-logo {
+  font-size: 30px;
+  padding: 25px 20px;
+}}
+.main {
+  background-color: #AFEEEE;
+  padding: 20px;
+  margin-top: 0px auto;
+  margin-bottom: 0px auto;
+}
+.container {
+  width: 100%;
+  margin-left: 10px;
+  margin-right: 20px;
+  text-align: center;
+  height: 430px;
+
+}
+.container h1 {
+  font-size: 50px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  color: #7278D0;
+}
+.tim {
+  margin-left: 98px;
+
+}
+.isi {
+  width: 16%;
+  float: left;
+  margin-right: 30px;
+  padding-top: 10px;
+  box-sizing: border-box
+}
+.isi img {
+  width: 120px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.isi p {
+  text-align: center;
+  font-size: 15px;
+  padding: 15px;
+  opacity: 0.7;
+}
+.isi p:hover {
+  opacity: 1;
+}
+.isi:hover {
+  background-color: #FFF
+}
+@media(max-width:1000px) {
+.tim {
+  padding-top: 20px;
+  text-align: center;
+
+}
+
+.container {
+   height: 1200px;
+   
+}
+.isi {
+  width: 32%;
+  float: left;
+  margin-right: 50px;
+  padding-top: 10px;
+  box-sizing: border-box;
+  margin-top: 20px;
+}
+.tiga {
+  margin-left: 120px;
+}}
+@media(max-width:670px) {
+ .main {
+  background-color: #AFEEEE;
+}
+ .container {
+  width: 100%;
+  text-align: center;
+  height: 1450px;
+
+ }
+ .container h1 {
+  font-size: 30px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  color: #7278D0;
+}
+  .tim {
+  padding-top: 0px;
+  text-align: center;
+}
+.isi {
+  box-sizing: border-box;
+  margin-top: 20px;
+  flex-direction: column;
+  padding: 0 auto;
+}
+.isi p {
+ text-align: center;
+  font-size: 13px;
+  opacity: 0.7;
+  margin-left: -100px;
+  width: 200px;
+
+}
+.tiga {
+  margin-left: 0px;
+}
+.satu img {
+  margin-left: -50px;
+}
+.dua  {
+  width: 150px;
+}
+.dua p {
+  padding-left: 70px;
+}
+.tiga img {
+  margin-left: -50px;
+}
+.empat  {
+  width: 150px;
+}
+.empat p {
+   padding-left: 70px;
+}
+.lima img {
+  margin-left: -50px;
+  background-color: white;
+
+}
+.isi:hover {
+  background-color: transparent;
+}
+}
+
+.main-tambahan {
+  
+  background-color:  #AFEEEE;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+.box {
+  height: 150px;
+  text-align: center;
+  padding: 20px 100px 40px 40px;
+}
+.join {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+  margin-top: 20px;
+  width: 100px;
+  margin-left: 500px;
+}
+.join:active {
+  animation: animasiJoin 1s ease 1 normal forwards;
+  position: relative;
+  top: 7px;
+  width: 90px;
+  box-shadow: none;
+  opacity: 0.6;
+}
+@keyframes animasiJoin{
+  0%{
+      background-color: #5dca88;
+  }
+  70%{
+      background-color: lightskyblue;
+      color: white;
+  }
+  100%{
+      background-color: blue;
+      color: whitesmoke;
+  }
+}
+@media (max-width:1000px){
+  .main-tambahan {
+    float: left;
+    width: 100%;
+  }
+ .join {
+  margin-left: 170px;
+}}
+@media (max-width:670px) {
+  .main-tambahan{
+    width: 100%;
+    
+  }
+  .box {
+    height: 150px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .join {
+  margin-left: 60px;
+}
+
+
+}
+.footer {
+  background-color: #7278D0;
+  color: white;
+  font-family: sans-serif;
+  height: 110px;
+  padding-top: 10px;
+  width: 100%;
+}
+.footer-logo {
+  float: left;
+  font-size: 32px;
+  padding: 20px 40px;
+}
+.footer-list {
+  float: right;
+  color: white;
+  margin-top: 10px;
+  margin-right: 20px;
+padding-bottom: 20px;
+}
+.footer-list li {
+  display: block;
+  margin-bottom: 8px;
+}
+@media(max-width:1000px){
+  .footer {
+  background-color: #7278D0;
+  height: 270px;
+}
+}
+@media(max-width:670px){
+ .footer {
+  background-color: #7278D0;
+  height: 290px;
+}
+.footer-logo {
+  float: left;
+  font-size: 20px;
+  padding: 40px 20px;
+}
+.footer-list {
+  font-size: 13px;
+  float: right;
+  color: white;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+}
